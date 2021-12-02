@@ -93,7 +93,7 @@ class LightningTester(pytorch_lightning.Trainer):
             amp_backend=amp_backend,            
             distributed_backend=distributed_backend,
             amp_level=amp_level,
-            automatic_optimization=False,
+            #automatic_optimization=False,
             **kwargs
         )
 
